@@ -10,7 +10,7 @@ class Connection {
         host: '35.184.48.70',
         user: 'root',
         password: db_password,
-        database: 'cards'
+        database: 'metalMare'
     })
 
     return this.pool

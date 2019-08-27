@@ -7,7 +7,11 @@ router.get('/', decksController.getDecks)
 
 router.get('/:id', decksController.getDecksById)
 
+router.post('/', decksController.createDecks)
 
+router.put('/:id',  decksController.updateDecksById)
+
+router.delete('/:deck_name', decksController.deleteDeckByName)
 // router.get('/decks/:title', decksController.getdecksByT)
 
 
